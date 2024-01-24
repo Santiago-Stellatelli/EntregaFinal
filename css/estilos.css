@@ -1,11 +1,11 @@
-body{
+body {
     margin-top: 0px;
     top: 0px;
 }
 
 
 /*-----------------------------------Cabecera-------------------------------------------------*/
-h1{
+h1 {
     font-family: "Acme", sans-serif;
     /* text-shadow: 0px 0px 17px rgba(0,0,0,1); */
     padding: 12px;
@@ -14,21 +14,8 @@ h1{
     border-radius: 7px;
 }
 
-/* header{
-    background-image:url(../img/entradaAsocFomento.png) ;
-    background-position-y:1100px;
-    margin-top: 0px;
-    top: 0px;
-    position: fixed;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    height: 150px;
-    align-items: center;
-    
-} */
 
-header{
+header {
     position: fixed;
     width: 100%;
     display: flex;
@@ -36,14 +23,81 @@ header{
     height: 150px;
     align-items: center;
     background-color: #5F9B86;
-    border-bottom: 5px solid #2a4166;
-    
+    /* border-bottom: 5px solid #2a4166; */
+    margin-top: 0px;
+    top: 0px;
+    z-index: 3;
+
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+
+/*----------------------------------Navegacion----------------------------------------------------*/
+.barranav {
+    /* margin-top: 132px; */
+    position: fixed;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    top: 133px;
+    z-index: 2;
+}
+
+.barranav ul {
+    list-style: none;
+    display: flex;
+    background-color: #2a4166;
+    /* padding: 2px; */
+    font-family: "Teko", sans-serif;
+    padding-left: 0px;
+}
+
+.barranav ul li {
+    flex-grow: 1;
+}
+
+.barranav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    display: block;
+}
+
+.barranav ul li a.activo {
+    background-color: #5F718C;
+}
+
+/*------------------------------------------------------------------------------------*/
+
+
+
+/**----------------------------Seccion inicio-----------------------------------------*/
+
+.objetivos {
+    margin: 230px auto;
+    max-width: 800px;
+    font-family: "Dosis", sans-serif;
+    border-top: 3px solid black;
+}
+
+.objetivos h3 {
+    color: burlywood;
+    font-size: 30px;
+    text-align: center;
+}
+
+.objetivos img {
+    width: 100%;
+    filter: drop-shadow(8px -6px 5px #000000);
+    -webkit-filter: drop-shadow(8px -6px 5px #000000);
+    -moz-filter: drop-shadow(8px -6px 5px #000000);
+    z-index: 1;
 }
 
 
 
 
 
-
-
-/*--------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------*/
