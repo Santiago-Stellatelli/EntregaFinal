@@ -83,7 +83,7 @@ header img{
 
 /**----------------------------Seccion inicio-----------------------------------------*/
 
-.objetivos {
+.objetivos{
     margin: 230px auto;
     max-width: 800px;
     font-family: "Dosis", sans-serif;
@@ -99,7 +99,7 @@ header img{
     color: white;
 }
 
-.objetivos h3 {
+.objetivos h3{
     color: burlywood;
     font-size: 30px;
     text-align: center;
@@ -112,6 +112,7 @@ header img{
     -moz-filter: drop-shadow(8px -6px 5px #000000);
     z-index: 1;
 }
+
 
 /*-----------------------------------------------------------------------------*/
 
@@ -193,4 +194,40 @@ header img{
     color: black;
     width: 400px;
     font-size: 15px;
+}
+
+#nombreredes #mail{
+    color: black;
+}
+
+
+
+
+
+/*---------------------------------------------------------------------------*/
+
+.mision{
+    margin: 230px auto;
+    max-width: 800px;
+    font-family: "Dosis", sans-serif;
+    border-top: 3px solid black;
+    background: #5f9b86;
+    background: linear-gradient(216deg, #5f9b86 0%, #5f718c 80%);
+    background: -webkit-linear-gradient(216deg, #5f9b86 0%, #5f718c 80%);
+    background: -moz-linear-gradient(216deg, #5f9b86 0%, #5f718c 80%);
+    box-shadow: 0px 0px 10px 15px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 10px 15px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 15px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    color: white;
+}
+
+.mision h3{
+    color: burlywood;
+    font-size: 30px;
+    text-align: center;
+}
+
+.mision ul li{
+    margin-top: 10px;
 }
